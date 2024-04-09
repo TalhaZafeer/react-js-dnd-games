@@ -7,7 +7,7 @@ import MemotestBox from "./MemotestBox";
 
 const MemotestGame = (props) => {
   const [elements, setElements] = useState(buildInitialState(props.images));
-  const [initialOrder, setInitialOrder] = useState(
+  const [initialOrder, setInitialOrderinitialOrder] = useState(
     shuffleArray(Object.keys(elements))
   );
   const [firstElement, setFirstElement] = useState("");
@@ -27,7 +27,7 @@ const MemotestGame = (props) => {
 
       if (firstElement.split("-")[0] !== clickedElement.split("-")[0]) {
         setTimeout(() => {
-          const newElements = { ...elements };
+          const newElements = Object.assign({}, elements);
           newElements[firstElement].visible = false;
           newElements[clickedElement].visible = false;
           setElements(newElements);
@@ -53,7 +53,7 @@ const MemotestGame = (props) => {
     setFirstElement("");
     setSecondElement("");
     setElements(buildInitialState(props.images));
-    setInitialOrder(shuffleArray(Object.keys(elements)));
+    setInitialOrderinitialOrder(shuffleArray(Object.keys(elements)));
   };
 
   return (
@@ -75,6 +75,10 @@ const MemotestGame = (props) => {
   );
 };
 
+/**
+ * Returns a IState object
+ * @param images list of image files
+ */
 function buildInitialState(images) {
   return images.reduce((result, img) => {
     result[`${img.split("memotest/")[1].split(".")[0]}-1`] = {
