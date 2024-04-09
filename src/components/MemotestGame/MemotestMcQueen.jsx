@@ -9,20 +9,13 @@ import Saly from "../../assets/images/memotest/saly.png";
 import Storm from "../../assets/images/memotest/storm.png";
 import MemotestGame from "./MemotestGame";
 
-const MemotestMcQueen = () => (
-  <MemotestGame
-    images={[
-      "../../assets/images/memotest/chick.png",
-      "../../assets/images/memotest/doc.png",
-      "../../assets/images/memotest/storm.png",
-      "../../assets/images/memotest/saly.png",
-      "../../assets/images/memotest/rayo.png",
-      "../../assets/images/memotest/rey.png",
-      "../../assets/images/memotest/ramon.png",
-      "../../assets/images/memotest/mate.png",
-      "../../assets/images/memotest/guido.png",
-    ]}
-  />
-);
+const MemotestMcQueen = () => {
+  console.log("==========>", Chick, Doc);
+  return (
+    <MemotestGame
+      images={[Chick, Doc, Guido, Mate, Ramon, Rayo, Rey, Saly, Storm]}
+    />
+  );
+};
 
 export default MemotestMcQueen;
