@@ -1,0 +1,36 @@
+{
+  "es": {
+    "translation": {
+      "Welcome": "Bienvenid@ a Tikijuegos",
+      "Play": "Jugar",
+      "Home_t1": "Un sitio de juegos infantiles sin puntajes ni competencia.",
+      "Home_t2": "Es gratis y siempre lo será",
+      "Home_t3": "Activa el sonido para una mejor experiencia",
+      "Games": "Juegos",
+      "Games list": "Lista de juegos",
+      "Sort in stack": "Ordenar en pila",
+      "Lower to higher": "Menor a mayor",
+      "Sort letters": "Ordenar letras",
+      "Not found": "Acá no hay juegos!",
+      "Drag title": "Arrastrar",
+      "Drag subtitle": "Ordenar de menor a mayor"
+    }
+  },
+  "en": {
+    "translation": {
+      "Welcome": "Welcome to Tikijuegos",
+      "Play": "Play",
+      "Home_t1": "A site with kids games without score not competition.",
+      "Home_t2": "It is (and will be) free",
+      "Home_t3": "Turn on the sound for a better gaming experience",
+      "Games": "Games",
+      "Games list": "Games list",
+      "Sort in stack": "Sort in stack",
+      "Lower to higher": "Lower to higher",
+      "Sort letters": "Sort letters",
+      "Not found": "No games here!",
+      "Drag title": "Drag and drop",
+      "Drag subtitle": "Sort from lower to higher"
+    }
+  }
+}

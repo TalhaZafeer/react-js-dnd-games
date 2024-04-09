@@ -1,0 +1,62 @@
+@media screen and (max-width: 600px) {
+  .not-found img {
+    width: 70%;
+  }
+
+  .game-card {
+    margin: 0 auto;
+    display: inline-block;
+    width: 46%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    height: 250px;
+  }
+
+  .widthError {
+    margin-bottom: 50px;
+    background: yellow;
+    border-radius: 15px;
+    color: #6d6d6d;
+    text-align: center;
+    border: solid #fff6aa 3px;
+  }
+
+  .hideMsg {
+    display: block;
+    cursor: pointer;
+    width: 15px;
+    float: right;
+  }
+
+  .dnd-game {
+    padding: 30px 0 30px 0;
+  }
+
+  .dnd-game .source .dnd-number div {
+    padding: 5px 15px 5px 15px;
+    font-size: 30px;
+    margin: 0 auto;
+  }
+
+  .dnd-game .size-10 div {
+    padding: 5px;
+  }
+
+  .you-win {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 900px) {
+  .memotest-box {
+    margin: 3px;
+    width: 70px;
+    height: 115px;
+  }
+
+  .memotest-box img:not(.hide) {
+    height: 60%;
+  }
+}
